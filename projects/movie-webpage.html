@@ -1,1 +1,162 @@
-### Movie webpage
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" /> 
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>AVD Jigsaw - Animation</h1>
+
+  <h2>@Keyframes </h2>
+  <div class="b">
+    <p>Keyframes is a code that allows for the steps of animation to be animated. The @keyframes rule determines and controls what happens over the course of the animation by using percentages from 0% to 100%. An example of this is:</p>
+    <pre><code id="c" class="language-CSS">
+    @keyframes color {
+      0% {
+        background-color: blue;
+      }
+      100% {
+        background-color: yellow;
+      }
+    }
+    </code></pre>
+  </div>
+  
+  <h2>Position</h2>
+  <div class="b">
+    <p> The property position basically affects where the element being animated will be located at.</p>
+    <pre><code id="c" class="language-CSS">
+     @keyframes rainbow {
+     0% {
+       background-color: blue;
+       top: 0px;
+       position: fixed; 
+      }
+     }
+    </code></pre>
+  </div>
+  
+  <h2>Opacity  </h2>
+  <div class= "b">
+    <p> The property opacity changes how transparent the element is so if the opacity is 0.1 it is almost see through but if the opacity is 1 it will not be see through.</p>
+    <pre><code id="c" class="language-CSS">
+    @keyframes fade {
+      50% {
+        left: 60%;
+        opacity: 0.1;
+      }
+    }
+    </code></pre>
+  </div>
+
+  <h2>animation-name </h2>
+  <p class= "b">The animation-name sets the name of the animation as the name implies. An example for this element in code is: <code id="c" class="language-CSS">animation-name: star-1;</code></p>
+
+  <h2>animation-duration </h2>
+  <p class= "b" id="d">The property animation-duration sets how long the animation runs for. How it works is: <code id="c" class="language-CSS">animation-duration: 10s;</code></p>
+
+  <h2>animation-iteration-count </h2>
+  <div class="b">
+    <p id="count">The animation-iteration-count property allows you to run the animation as many times as you want. You can set the value to any number or infinite which will make the animation run forever.</p>
+    <pre><code id="c" class="language-CSS">
+    #count {
+      font-weight: bold;
+      padding: 5px;
+      animation-name: color;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes color {
+      0% {
+        background-color: darkred;
+      }
+      50% {
+        background-color: green;
+      }
+      100% {
+        background-color: blue;
+      }
+    }
+    </code></pre>
+  </div>
+
+  <h2>animation-fill-mode </h2>
+  <div class="b">
+    <p id="f">The style applied to an element when the animation has ended is specified by the animation-fill-mode property and the value must be set to forwards in order to keep the animation running forever.</p>
+    <pre><code id="c" class="language-CSS">
+      #f {
+        border-radius: 10px;
+        padding: 5px 10px 8px 10px;
+      }
+      #f:hover {
+        animation-name: background-color;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes background-color {
+        100% {
+          background-color: #aa8555;
+        }
+      }
+    </code></pre>
+  </div>
+  
+  <h2>animation-timing-function </h2>
+   <div class= "b"> 
+    <p> 
+      This property controls the speed of the change in an animated element over the duration of the animation. The different values of the animation-timing-function are: 
+      <ul>
+        <li><code id="c" class="language-CSS">animation-timing-function: ease;</code> - from slow to fast to slow</li>
+        <div class="rects" id="rect1"></div>
+        <li><code id="c" class="language-CSS">animation-timing-function: ease-in;</code> - from slow to fast</li>
+        <div class="rects" id="rect2"></div>
+        <li><code id="c" class="language-CSS">animation-timing-function: ease-out;</code> - from fast to slow</li>
+        <div class="rects" id="rect3"></div>
+        <li><code id="c" class="language-CSS">animation-timing-function: linear;</code> - constant speed</li>
+        <div class="rects" id="rect4"></div>
+      </ul>
+    </p>
+    <p>
+      Cubic bezier curves, used with the cubic-bezier function, provide a better control over how the animation runs. They run on a 1 by 1 coordinate system, the X-axis is the duration of the animation and the Y-axis is the change in the animation. They can be used instead of the other keywords for the animation-timing-function. For example:
+      <ul>
+        <li><code id ="c"class="language-CSS">animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0);</code> = linear</li>
+        <li><code id="c" class="language-CSS">animation-timing-function: cubic-bezier(0.42, 0, 1.0, 1.0);</code> = ease-in</li>
+        <li><code id="c" class="language-CSS">animation-timing-function: cubic-bezier(0, 0, 0.58, 1);</code> = ease-out</li>
+      </ul>
+    </p>
+   </div>
+<h2>Transform</h2>
+
+ <p class= "b">The transform property allows you to change the size of an element.
+   Here's an example of how to use it: <code id="c" class="language-CSS">transform: rotate(90deg);</code>.</p>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+</body>
+
+</html>
