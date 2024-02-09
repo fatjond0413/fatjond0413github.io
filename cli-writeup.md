@@ -10,9 +10,9 @@
 </head>
 
 <h1>CYOA Portfolio</h1>
-
+---
 <h2>The plan</h2>
-
+---
 <p>Me and my partners planed to make a adventure were we wake up in a alternate universe were we either are aliens, or humans in an alien world. I took most direction in the human part or the dark blue part were my parters did one file and they took the alien route. In the human route I made it so that you have multiple choices at time and singile choices at time that lead to diffrent endings like you dieing from a 70 floor fall or geting experimented on by alien doctors. Or mabye you Alien Dad thnks your sick, and resarts were you begin when you wake up from your bed.I had the entire story set.</p>
 
 <img src="https://github.com/fatjond0413/fatjond0413.github.io/assets/146867501/97e28c04-eb6c-4496-80db-105b94c162a4" width="300">
