@@ -31,3 +31,6 @@
 <h2>Upnext</h2>
 
 <p>Upnext will review the project to see if I can imporove upone anything for the next along with trying establish better ways to work wuth my peers. It is always better to improve and i might need it depending upon my grade I recive.</p>
+
+![image](https://github.com/fatjond0413/fatjond0413.github.io/assets/146867501/97e28c04-eb6c-4496-80db-105b94c162a4)
+
