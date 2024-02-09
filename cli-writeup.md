@@ -1,41 +1,33 @@
-# Process Writeup
+<!DOCTYPE html>
+<html>
 
-## Name: Fatjon Dungu
-## Course: SEP10
-## Period: 6TH
-## Concept: Command Line Interface
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-### Learning about CLI(Command Line Interface)
+<h1>CYOA Portfolio</h1>
 
-**CLI** (Command Line Interface) are text based commands that input files and folders which you can edit like moving them, changing names, etc.
-When first learning cli I was very confused about it as it had nothing to do with html and was much more worried for the future when the seniors said this was easy.
-I did not understand the lessons or the work at all starting out and had 6 missing assiments related to CLI. I could not even understand **pwd** or **mkdir**. After a while  i begain to understand the basics like **pwd**, **mkdir**, **mv**, and **ls**. But I still did not know how to set up ide even after ewatching the vidoe and reading the intrustions twice. I had to go to tutoring and get my teacher ***Mr.muller*** to set it up for me. After studing for hours during winter break I  got a good understanding of cli.
+<h2>The plan</h2>
 
-### Takeaways from cli and how I will learn *future lessons*.
+<p>Me and my partners planed to make a adventure were we wake up in a alternate universe were we either are aliens, or humans in an alien world. I took most direction in the human part were my parters did one file and they took the alien route. In the human route I made it so that you have multiple choices at time and singile choices at time that lead to diffrent endings like you dieing from a 70 floor fall or geting experimented on by alien doctors. Or mabye you Alien Dad thnks your sick, and resarts were you begin when you wake up from your bed.I had the entire story set.</p>
 
- Some takeaways I got from ***cli*** and things I should do in the future will me listed below
+<h2>Creating the Adventure</h2>
 
-* Spend two to three hours every two days reviewing sep10 and the current lesson ***Mr Muller*** is teaching.
+<p>We did out route I wrote the text and made the files on my IDE and helped my group when one of my parters was absent. I also helped my group in showing them how to make links. Then we just did our thinks, nothing to diffrent from the restaurant assignment. But abit easyer if I am being honest.</p>
 
-* I should go to tutoring wenever I get the chance.
+<h2>Looking back</h2>
 
-* [*I also decided to ad a link to a cli guide I found on the internet.*](https://www.ibm.com/docs/en/ds8900/9.0.2?topic=interface-cli-commands)
+<p>I don't completly understand why Mr.Mueller gave this asignment, but I did relearn how use links better and got more experince working with people through the laptop like the restaurant assignment with Nancy.</p>
 
+<h2>The Challanges</h2>
 
+<p>What was tough about this project was the links and the amount of time it took along with doing extra files because my partner was absent. Also remebering the code and trying my absoulte hardest not to forget. If I am being honest the portfolio was harder trying to get all the requirements</p>
 
-##*Inline `cli` snippet*
+<h2>Upnext</h2>
 
-```language
-pwd
-mkdir apple
-mkdir banana
-cd apple
-mkdir pear
-cd ..
-mkdir berries
-cd berries
-mkdir blue berries
-mv blue berries strawberries
-mv banana apple
-pwd
-```
+<p>Upnext will review the project to see if I can imporove upone anything for the next along with trying establish better ways to work wuth my peers. It is always better to improve and i might need it depending upon my grade I recive.</p>
