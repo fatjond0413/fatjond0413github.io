@@ -34,7 +34,3 @@
 <p>Upnext will review the project to see if I can imporove upone anything for the next along with trying establish better ways to work wuth my peers. It is always better to improve and i might need it depending upon my grade I recive.</p>
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4073ae9c540b6917ff457ec66f51be5884742a16
